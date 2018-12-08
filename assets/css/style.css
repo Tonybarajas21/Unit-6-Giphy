@@ -1,0 +1,34 @@
+div,
+form,
+input {
+      margin: 10px;
+    }
+
+button {
+  
+    border-color: burlywood;
+    background: darkcyan;
+    height: auto;
+    font-family: cursive;
+    font-size: larger;
+    margin: 10px;
+  }
+
+body { 
+  background: dimgray;
+
+}
+
+#add-movie {
+  border-color: burlywood;
+  background: darkcyan;
+  height: auto;
+  font-family: cursive;
+  margin: 10px;
+  font-size: initial;
+}
+
+#movie-input {
+  padding: 6px;
+  margin: 10px;
+}
