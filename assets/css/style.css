@@ -4,20 +4,52 @@ input {
       margin: 10px;
     }
 
+
+h1 {position: relative;
+  z-index: 2;
+  color: cornsilk;
+  text-align: -webkit-center;
+  font-size: -webkit-xxx-large;
+  font-family: cursive;
+}
+
 button {
   
-    border-color: burlywood;
-    background: darkcyan;
-    height: auto;
-    font-family: cursive;
-    font-size: larger;
-    margin: 10px;
+  border-color: burlywood;
+  background: darkcyan;
+  height: auto;
+  font-family: cursive;
+  font-size: larger;
+  margin: 10px;
+  border-radius: 9px;
   }
 
-body { 
-  background: dimgray;
+  
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
 
 }
+
+#bg img{
+  position: absolute;
+  top: 0;
+  left: -20px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+
+}
+
 
 #add-movie {
   border-color: burlywood;
@@ -26,9 +58,35 @@ body {
   font-family: cursive;
   margin: 10px;
   font-size: initial;
+  border-radius: 8px;
 }
 
 #movie-input {
   padding: 6px;
   margin: 10px;
+}
+
+#movies-view{
+  position: relative;
+  z-index: 1;
+}
+
+#form-view{
+
+  z-index: 1;
+}
+
+
+#movie-gifs{
+
+  position: absolute;
+  z-index: 2;
+  color: white;
+  margin-left: 41%;
+  margin-top: 4%;
+}
+
+#movie-form{
+  position: absolute;
+    z-index: 1;
 }
